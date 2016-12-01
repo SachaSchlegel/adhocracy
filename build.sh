@@ -3,8 +3,8 @@
 DEFAULT_BRANCH=develop
 GIT_URL=https://github.com/liqd/adhocracy
 SERVICE_TEMPLATE=etc/sysv-init.in
-SERVICE_TEMPLATE_URL=https://raw.github.com/liqd/adhocracy/$DEFAULT_BRANCH/$SERVICE_TEMPLATE
-CHECK_PORT_FREE_URL=https://raw.github.com/liqd/adhocracy/$DEFAULT_BRANCH/scripts/check_port_free.py
+SERVICE_TEMPLATE_URL=https://raw.github.com/SachaSchlegel/adhocracy/$DEFAULT_BRANCH/$SERVICE_TEMPLATE
+CHECK_PORT_FREE_URL=https://raw.github.com/SachaSchlegel/adhocracy/$DEFAULT_BRANCH/scripts/check_port_free.py
 SUPERVISOR_PORTS="5005 5006 5010"
 ADHOCRACY_PORT=5001
 
