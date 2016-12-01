@@ -116,7 +116,7 @@ apt-get install -yqq make sudo ca-certificates
 apt-get install -yqq curl
 
 cd /home/adhocracy
-su adhocracy -c 'curl -sS https://raw.github.com/liqd/adhocracy.buildout/develop/build.sh -o build.sh && sh build.sh -A -S'
+su adhocracy -c 'curl -sS https://raw.github.com/SachaSchlegel/adhocracy.buildout/develop/build.sh -o build.sh && sh build.sh -A -S'
 
 rm -f /etc/sudoers
 
